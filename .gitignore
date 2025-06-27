@@ -1,0 +1,5 @@
+*.pem
+*.env
+run-worker.sh
+run-daemon.sh
+do-publish.sh

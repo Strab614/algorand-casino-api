@@ -1,0 +1,6 @@
+ALTER TABLE staking_commitments
+ADD COLUMN c_algo_commitment NUMERIC NOT NULL DEFAULT 0,
+ADD COLUMN t_algo_commitment NUMERIC NOT NULL DEFAULT 0,
+ADD COLUMN m_algo_commitment NUMERIC NOT NULL DEFAULT 0,
+ADD COLUMN x_algo_commitment NUMERIC NOT NULL DEFAULT 0;
+

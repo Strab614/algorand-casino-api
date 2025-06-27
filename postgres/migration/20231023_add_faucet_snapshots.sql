@@ -1,0 +1,6 @@
+CREATE TABLE faucet_snapshots (
+	id SERIAL PRIMARY KEY,
+	created_at TIMESTAMP WITH TIME ZONE NOT NULL,
+	asset_id NUMERIC NOT NULL,
+	accounts JSONB NOT NULL
+);
