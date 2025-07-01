@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Github, Twitter, Discord, Shield, Award, Zap } from 'lucide-react'
+import { Github, Twitter, MessageCircle, Shield, Award, Zap } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -24,7 +24,7 @@ export default function Footer() {
                 <Twitter className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-algorand-400 transition-colors">
-                <Discord className="w-5 h-5" />
+                <MessageCircle className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-algorand-400 transition-colors">
                 <Github className="w-5 h-5" />
